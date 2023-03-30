@@ -3,5 +3,5 @@ public class asdasd {
     public String b="Rinat";
     public String s="Rinat";
     public String d="Rinat";
-
+qweqwe
 }
