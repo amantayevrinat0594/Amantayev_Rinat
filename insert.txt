@@ -1,0 +1,63 @@
+INSERT INTO hospital VALUES(1,'Святого Патрика','Мангилик ел 8','Астана','красный');
+INSERT INTO hospital VALUES(2,'Святого Матрика','Энергетиков 1','Алматы','зеленый');
+INSERT INTO hospital VALUES(3,'Святого Сатрика','Ленина 5','Шымкент','черный');
+INSERT INTO hospital VALUES(4,'Святого Датрика','Асу 3','Экибастуз','красный');
+INSERT INTO hospital VALUES(5,'Святого Латрика','Экспо 1','Павлодар','синий');
+INSERT INTO hospital VALUES(6,'Святого Татрика','Какой то адрес','Караганда','красный');
+INSERT INTO hospital VALUES(7,'Святого Кедатрика','Какой то адрес','Петропавловск','красный');
+INSERT INTO hospital VALUES(8,'Святого Саприка','Какой то адрес','Усть-каменогорск','черный');
+INSERT INTO hospital VALUES(9,'Святого Датника','Какой то адрес','Аксу','синий');
+INSERT INTO hospital VALUES(10,'Святого Саратника','Какой то адрес','Тараз','зеленый');
+INSERT INTO hospital VALUES(11,'Святого Месси','Какой то адрес','Жезказган','черный');
+INSERT INTO hospital VALUES(12,'Святого Роналду','Какой то адрес','Актау','черный');
+INSERT INTO hospital VALUES(13,'Святого Пеле','Какой то адрес','Атырау','зеленый');
+INSERT INTO hospital VALUES(14,'Святого Суарес','Какой то адрес','Талдыкорган','синий');
+INSERT INTO hospital VALUES(15,'Святого Головкина','Какой то адрес','Семей','синий');
+
+INSERT INTO ambulance VALUES(101,1);
+INSERT INTO ambulance VALUES(102,2);
+INSERT INTO ambulance VALUES(103,3);
+INSERT INTO ambulance VALUES(104,4);
+INSERT INTO ambulance VALUES(105,5);
+INSERT INTO ambulance VALUES(106,6);
+INSERT INTO ambulance VALUES(107,7);
+INSERT INTO ambulance VALUES(108,8);
+INSERT INTO ambulance VALUES(109,9);
+INSERT INTO ambulance VALUES(110,10);
+INSERT INTO ambulance VALUES(111,11);
+INSERT INTO ambulance VALUES(112,12);
+INSERT INTO ambulance VALUES(113,13);
+INSERT INTO ambulance VALUES(114,14);
+INSERT INTO ambulance VALUES(115,15);
+
+INSERT INTO driver (driver_id,driver_f_name,driver_l_name,ambulance_id) VALUES
+(001,'Суровый','Эдуард',101),
+(002,'Пушкин','Александр',102),
+(003,'Сауль','Суарес',103),
+(004,'Амантаев','Ринат',104),
+(005,'Леонель','Месси',105),
+(006,'Джон','Сноу',106),
+(007,'Ка','Мин',107),
+(008,'Ту','Ян',108),
+(009,'Фу','Син',109),
+(0010,'ЛО','Мин',110),
+(0011,'Сун','Пе',111),
+(0012,'Жак','Жан',112),
+(0013,'ФАк','ТАн',113),
+(0014,'Куку','Ептэ',114),
+(0015,'Лох','Черт',115)
+
+INSERT INTO medicaments (medicament_id,medicament_name) VALUES
+(1,'Цитрамон'),
+(2,'Парацетамол'),
+(3,'Люколь'),
+(4,'Сюколь'),
+(5,'Нимесил'),
+(6,'Терафлю'),
+(7,'Марафлю'),
+(8,'Сарафлю'),
+(9,'Локолет'),
+(10,'Лакалют')
+
+
+SELECT * from ambulance,driver WHERE ambulance.ambulance_id = driver.ambulance_id

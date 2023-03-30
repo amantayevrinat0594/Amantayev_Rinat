@@ -1,0 +1,61 @@
+высокосный год
+import java.io.*;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Objects;
+import java.util.Scanner;
+
+
+public class Main {
+        public static void main(String[] args) {
+            Scanner in = new Scanner(System.in);
+            System.out.println("Введите год");
+            int year=in.nextInt();
+            System.out.println("Введите месяц");
+            int month=in.nextInt();
+            System.out.println("Введите день");
+            int day=in.nextInt();
+            switch (month){
+                case 1 :
+                    if (day<31){day+=1;}else {day=1;month=2;}
+                    break;
+                case 2:if(year%4==0){
+                    if (day<29){day+=1;}else {day=1; month=3;}
+
+                }else{
+                    if (day<28){day+=1;}else {day=1; month=3;}
+                }
+                    break;
+                case 3:  if (day<31){day+=1;}else {day=1;month=4;}
+                    break;
+                case 4:  if (day<30){day+=1;}else {day=1;month=5;}
+                    break;
+                case 5:  if (day<31){day+=1;}else {day=1;month=6;}
+                    break;
+                case 6:  if (day<30){day+=1;}else {day=1;month=7;}
+                    break;
+                case 7:if (day<31){day+=1;}else {day=1;month=8;}
+                break;
+                case 8:if (day<31){day+=1;}else {day=1;month=9;}
+                    break;
+                case 9:if(day<30){day+=1;}else {day=1;month=10;}
+                break;
+                case 10:if (day<31){day+=1;}else {day=1;month=11;}
+                    break;
+                case 11:if (day<30){day+=1;}else {day=1;month=12;}
+                    break;
+                case 12:if (day<31){day+=1;}else {day=1;month=1;}
+                    break;
+
+            }
+
+            System.out.println(" "+year+" "+month+" "+day+" ");
+        }
+
+}
+
+
+
+
+
+
