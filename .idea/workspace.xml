@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bded3a48-126e-4528-bf27-5bc8ac55d4fc" name="Changes" comment="Firting ffcommit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bded3a48-126e-4528-bf27-5bc8ac55d4fc" name="Changes" comment="Firtingsdfsdfs ffcommitasdfasf" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +53,7 @@
       <updated>1678108956531</updated>
       <workItem from="1678108957678" duration="31000" />
       <workItem from="1680182104555" duration="538000" />
-      <workItem from="1680182661929" duration="902000" />
+      <workItem from="1680182661929" duration="1222000" />
     </task>
     <task id="LOCAL-00001" summary="Firt commit">
       <created>1680182888931</created>
@@ -78,7 +76,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680183063217</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Firtingsdfsdfs ffcommitasdfasf">
+      <created>1680183672123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680183672123</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Firtingsdfsdfs ffcommitasdfasf">
+      <created>1680183710660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680183710660</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Firtingsdfsdfs ffcommitasdfasf">
+      <created>1680183884291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680183884291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +106,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Firt commit" />
     <MESSAGE value="Firting ffcommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firting ffcommit" />
+    <MESSAGE value="Firtingsdfsdfs ffcommitasdfasf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firtingsdfsdfs ffcommitasdfasf" />
   </component>
 </project>
